@@ -1,23 +1,41 @@
+body {
+    background-color: white;
+}
 #NavBar {
-    background-color: antiquewhite;
+    background-color: coral;
     vertical-align: 30px;
     list-style-type:none;
     border: groove;
+    border-color: red;
     margin:0;
     padding:10px;
     text-align: center;
 }
+#Title {
+    color: crimson;
+}
 .NavLinks {
     text-decoration: none;
-    color: magenta ;
+    border:double;
+    border-color: black;
+    color: black;
 
+}
+.NavLinks:hover {
+    font-size: large;
+    color: white;
 }
 #Body {
     text-align: center;
+    background-color: coral;
 }
 #John {
     float: right;
     text-align: right;
+}
+#Brenda {
+    text-align: left;
+
 }
 li {
     display:inline;
@@ -27,6 +45,10 @@ figcaption {
 }
 footer {
     position: relative;
-    margin-top: 37%;
+    margin-top: 20%;
 
+}
+#Paragraph {
+    text-align: left;
+    text-indent: 40px;
 }
