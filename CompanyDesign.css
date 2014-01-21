@@ -1,0 +1,32 @@
+#NavBar {
+    background-color: antiquewhite;
+    vertical-align: 30px;
+    list-style-type:none;
+    border: groove;
+    margin:0;
+    padding:10px;
+    text-align: center;
+}
+.NavLinks {
+    text-decoration: none;
+    color: magenta ;
+
+}
+#Body {
+    text-align: center;
+}
+#John {
+    float: right;
+    text-align: right;
+}
+li {
+    display:inline;
+}
+figcaption {
+    font-size: smaller;
+}
+footer {
+    position: relative;
+    margin-top: 37%;
+
+}
